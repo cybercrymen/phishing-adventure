@@ -20,7 +20,7 @@
 # This tool is publically availble from https://github.com/cybercrymen/phishing-adventure/
 
 YOURIP=$(curl -s https://api.ipify.org/?callback=getIP)
-apikey="cat $(urlscan.api)"
+apikey="$(cat urlscan.api)"
 output_file="urlscan-results.txt"
 
 echo
