@@ -19,16 +19,19 @@
 #
 #
 # This tool is publically availble from https://github.com/cybercrymen/phishing-adventure/
+YOURIP=$(curl -s https://api.ipify.org/?callback=getIP)
 echo
 echo "- - - - - - - - - - - - - - - - - - - - -"
 echo "Welcome to Rex Hunts Phishing Adventure by @CyberCrymen"
+echo "Your current IP address is $YOURIP"
+echo "CTRL-C to exit the console"
 echo "- - - - - - - - - - - - - - - - - - - - -"
 echo
 echo "What bait/keyword do you want to use?"
 echo "Some examples are: login, mygov, tracking, medicare, auspost"
 read keyword
 echo "- - - - - - - - - - - - - - - - - - - - -"
-echo "Updating phish finder db...";sleep 2
+echo "Updating your domain db...";sleep 2
 
 function error() {
     echo >&2 "$@"
@@ -63,7 +66,7 @@ function download() {
     DOWNLOAD_DIR="${DAILY_DIR}/${TYPE}"
     mkdir -p "$DOWNLOAD_DIR"
 
-    echo "Downloading domains registred in the past 7 days... Up to 3 days lag"
+    echo "Downloading domains from the past 7 days...up to 3 days lag."
 
     while [ "$i" -gt "0" ]; do
         DATE="$(date -u --date "$i days ago" '+%Y-%m-%d')"
@@ -102,6 +105,6 @@ echo "- - - - - - - - - - - - - - - - - - - - -"
 cat nrd.txt | grep $keyword > $keyword.txt;sleep 2
 rm nrd.txt
 echo
-echo -e "These are your domains... \n";sleep 1
+echo -e "You have found $(grep -vc '^$' "$keyword.txt") domains! \n";sleep 1
 cat $keyword.txt
 echo;echo "All done... There will be a file called $keyword.txt"
