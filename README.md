@@ -20,4 +20,7 @@ chmod u+x start.sh
 ./start.sh
 ```
 
-At the end you'll be left with txt file names after the keyword you used...
+Before you run the script you need to add your URLSCAN API key to the file called urlscan.api as plain text.
+At the end you'll be left with txt file names after the keyword you used and a file called urlscan-results.txt for analysis.
+
+Good luck and happy huntng!
