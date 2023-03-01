@@ -1,7 +1,9 @@
 # Rex Hunts Phishing Adventure
 
-Install instructions are below.
-Just clone it, chmod it and run it.
+This script will run on pretty much all linux machines.
+
+Install instructions are below. Just clone it, chmod it and run it.
+
 You will be promted for your bait/keyword and the script will do the rest.
 
 ```
