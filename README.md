@@ -19,10 +19,12 @@ Now get the files.
 `git clone https://github.com/cybercrymen/phishing-adventure.git; cd phishing-adventure; chmod u+x start.sh`
 
 Before you run the script you need to add your URLSCAN API key to the file called urlscan.api as plain text.
-At the end you'll be left with txt file names after the keyword you used and a file called urlscan-results.txt for analysis.
+
+You also need to replace my tag with your own inside tag.txt
 
 `./start.sh`
 
+At the end you'll be left with a txt file named after the keyword you used and a file called urlscan-results.txt for analysis.
 Good luck and happy huntng!
 
 #### Comment
