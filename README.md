@@ -27,6 +27,10 @@ You also need to replace my tag with your own inside tag.txt
 At the end you'll be left with a txt file named after the keyword you used and a file called urlscan-results.txt for analysis.
 Good luck and happy huntng!
 
+### Add Me
+
+Twitter [@CyberCrymen](https://twitter.com/cybercrymen)
+
 #### Comment
 
 Version 1.1 is now complete and is the bare bones of what can come.
