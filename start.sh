@@ -24,7 +24,7 @@ YOURIP=$(curl -s https://api.ipify.org/?callback=getIP)
 
 # URLScan Variables
 APIKEY="$(cat urlscan.api)"
-TAG="$(cat tag.txt)"
+TAG="$(cat tag.file)"
 OUTFILE="urlscan-results.txt"
 URLTAG="https://urlscan.io/search/#task.tags:%22$TAG%22"
 
