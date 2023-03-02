@@ -121,8 +121,9 @@ echo "-------------------------------------------------"
 echo ""
 
 # Filtering the domains from the db file, then removing the db file
-cat nrd.txt | grep $KEYWORD > $KEYWORD.txt
-sleep 2; rm nrd.txt
+cat nrd.txt | grep $KEYWORD > file.txt
+sort file.txt | uniq > $KEYWORD.txt
+sleep 2; rm nrd.txt; rm file.txt
 
 # Print the number of filtered domains
 echo "You have found $(grep -vc '^$' "$KEYWORD.txt") domains!"
