@@ -22,13 +22,11 @@
 
 YOURIP=$(curl -s https://api.ipify.org/?callback=getIP)
 
-# Add your API key in the file below
+# URLScan Variables
 APIKEY="$(cat urlscan.api)"
-
-# URLScan Variables - Change the TAG and TAGURL to your own
+TAG="$(cat tag.txt)"
 OUTFILE="urlscan-results.txt"
-TAG="@CyberCrymen"
-URLTAG="https://urlscan.io/search/#task.tags:%22@cybercrymen%22"
+URLTAG="https://urlscan.io/search/#task.tags:%22$TAG%22"
 
 rm *.txt;clear
 echo "###################################################"
