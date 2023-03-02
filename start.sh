@@ -30,7 +30,7 @@ OUTFILE="urlscan-results.txt"
 TAG="@CyberCrymen"
 URLTAG="https://urlscan.io/search/#task.tags:%22@cybercrymen%22"
 
-clear; rm *.txt
+rm *.txt;clear
 echo "###################################################"
 echo "                                                   "
 echo "   Welcome to Rex Hunts Phishing Adventure         "
