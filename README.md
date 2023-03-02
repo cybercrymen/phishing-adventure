@@ -10,18 +10,18 @@ Once you run the script you will then download a list of newly registered domain
 
 ## Install
 
-```
-git clone https://github.com/cybercrymen/phishing-adventure.git
+Here is some instructions for Debain based systems like Ubuntu.
 
-cd phishing-adventure
+`sudo apt install git curl`
 
-chmod u+x start.sh
+Now get the files.
 
-./start.sh
-```
+`git clone https://github.com/cybercrymen/phishing-adventure.git; cd phishing-adventure; chmod u+x start.sh`
 
 Before you run the script you need to add your URLSCAN API key to the file called urlscan.api as plain text.
 At the end you'll be left with txt file names after the keyword you used and a file called urlscan-results.txt for analysis.
+
+`./start.sh`
 
 Good luck and happy huntng!
 
