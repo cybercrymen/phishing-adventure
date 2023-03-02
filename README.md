@@ -24,3 +24,12 @@ Before you run the script you need to add your URLSCAN API key to the file calle
 At the end you'll be left with txt file names after the keyword you used and a file called urlscan-results.txt for analysis.
 
 Good luck and happy huntng!
+
+#### Comment
+
+Version 1.1 is now complete and is the bare bones of what can come.
+- - -
+I already have some ideas to do the following with URLScan
+1. Search if url exists, disgard if it does
+2. Scan urls (nothing changes here)
+3. Filter domains from results that returned 400 into new list
