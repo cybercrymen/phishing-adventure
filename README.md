@@ -31,6 +31,10 @@ Good luck and happy huntng!
 
 Twitter [@CyberCrymen](https://twitter.com/cybercrymen)
 
+### How To Report Phishing Domains
+
+Check out my post on [Pastebin](https://pastebin.com/7k70VFdT) for lots of reporting forms.
+
 #### Comment
 
 Version 1.1 is now complete and is the bare bones of what can come.
