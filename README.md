@@ -33,13 +33,4 @@ Twitter [@CyberCrymen](https://twitter.com/cybercrymen)
 
 ### How To Report Phishing Domains
 
-Check out my post on [Pastebin](https://pastebin.com/7k70VFdT) for lots of reporting forms.
-
-#### Comment
-
-Version 1.1 is now complete and is the bare bones of what can come.
-- - -
-I already have some ideas to do the following with URLScan
-1. Search if url exists, disgard if it does
-2. Scan urls (nothing changes here)
-3. Filter domains from results that returned 400 into new list
+Check out my post on [Medium](https://cybercrymen.medium.com/how-to-hunt-report-phishing-websites-30a9f0fb3d2f) for lots of reporting form links.
